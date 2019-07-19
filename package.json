@@ -1,5 +1,23 @@
 {
   "devDependencies": {
-    "electron": "5.0.7"
-  }
+    "electron": "^5.0.7"
+  },
+  "name": "my-electron",
+  "description": "electron构建跨平台桌面应用程序",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cathrine0813/my-electron.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cathrine0813/my-electron/issues"
+  },
+  "homepage": "https://github.com/Cathrine0813/my-electron#readme"
 }
